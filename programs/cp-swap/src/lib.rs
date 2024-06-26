@@ -39,7 +39,7 @@ pub mod admin {
 pub mod create_pool_fee_reveiver {
     use anchor_lang::prelude::declare_id;
     #[cfg(feature = "localnet")]
-    declare_id!("GZ9TuPEAdcFcgfghtY9dMK1iXck6Y4LFi48HZax9E4Fo");
+    declare_id!("5tjQ1FouvuDmaz6fdeK8Snp2gNovGRMHBjJKoQKqaRsM");
     #[cfg(feature = "devnet")]
     declare_id!("G11FKBRaAkHAKuLCgLM6K6NUc9rTjPAznRCjZifrTQe2");
     #[cfg(not(any(feature = "localnet", feature = "devnet")))]
