@@ -20,7 +20,7 @@ solana_security_txt::security_txt! {
 }
 
 #[cfg(feature = "localnet")]
-declare_id!("1111111QLbz7JHiBTspS962RLKV8GndWFwiEaqKM");
+declare_id!("CVHAgHmDhZRjscris8N18pgwf8YS5WGjNUaNvhS7TC9e");
 #[cfg(feature = "devnet")]
 declare_id!("CPMDWBwJDtYax9qW7AyRuVC19Cc4L4Vcy4n2BHAbHkCW");
 #[cfg(not(any(feature = "localnet", feature = "devnet")))]
